@@ -1,0 +1,144 @@
+* {
+    margin : 0;
+    padding : 0;
+    font-family: 'Capriola', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #297fb8;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* Poppins Font-family import link below */
+
+@import url('https://fonts.googleapis.com/css2?family=Capriola&family=Lato:wght@900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,600;0,700;1,100;1,200;1,300;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body .delete-button-top {
+    color : #fff;
+    width : 110px;
+    height: 32px;
+    display : block;
+    margin : 1% auto;
+    border : none;
+    font-size : 17px;
+    font-weight: normal;
+    background-color :#FF5349;
+}
+
+.popup-wrapper {
+    display: none;
+}
+
+.popup-wrapper, .popup-content {
+    width : 544px;
+    height : 456px;
+    margin : 1% auto;
+    border-radius: 5px;
+    background-color : #fff;
+}
+
+.popup-content li  {
+    display: flex;
+    justify-content: center;
+}
+
+.popup-content li .fa-circle-question {
+    color: #FF5349;
+    font-size : 120px;
+    font-weight : bolder;
+    padding-top :42px;
+}
+
+
+.popup-content li h4 {
+    color : #000;
+    font-size : 50px;
+    font-weight: 600;
+    text-align: center;
+    padding : 24px 0px;
+}
+
+.popup-content li p {
+    color : #39312f;
+    width : 480px;
+    font-size : 26px;
+    font-weight : 500;
+    text-align: center;
+    padding-bottom :18px;
+}
+
+.popup-content li .inside-delete {
+    width : 240px;
+    background-color: #297fb8;
+}
+
+.popup-content li .inside-delete:hover {
+    cursor: pointer;
+    background-color: #062f49;
+}
+
+.popup-content li .cancel-btn {
+    width : 178px;
+    margin-left : 35px;
+    background-color: #FF5349;
+}
+
+.popup-content li .cancel-btn:hover {
+    cursor: pointer;
+    background-color: crimson;
+}
+
+.popup-content li .inside-delete, .popup-content li .cancel-btn {
+    height : 56px;
+    font-size : 25px;
+    color : #fff;
+    border-radius : 5px;
+    border : none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
